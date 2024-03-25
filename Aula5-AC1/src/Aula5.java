@@ -22,17 +22,20 @@ public class Aula5 {
 
         System.out.print("Digite a nota da AF: ");
         af = scanner.nextDouble();
-
+        
+        //Execução do método para calcular a média final do aluno
         mediaFinal = calculoMedia(ac1, ac2, ag, af);
 
+        //Exibe a média final do aluno
         System.out.println("A média final desse aluno é "+ mediaFinal); 
 
+        //Fecha o scanner
         scanner.close();
 
     }
     
 
-
+    //Criação do método para calcular a média
     public static double calculoMedia(double ac1, double ac2, double ag, double af) {
         return  (ac1 * 0.15) + (ac2 * 0.30) + (ag * 0.10) + (af * 0.45);
         
