@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.lang.Math;
 
-public class Exercicios {
+public class Aula4 {
     public static void main(String[] args) {
         //Criação do scanner para a execução de todos os exercícios
         Scanner scanner = new Scanner(System.in);
