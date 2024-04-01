@@ -10,7 +10,7 @@ public class Aula4 {
         /*Exercício 1 - Calcular a raiz cúbica de um número qualquer */
         
         //Pede e recebe o número que será calculado a raíz
-        System.out.print("Digite o número que deseja calculara raíz cúbica: ");
+        System.out.print("Digite o número que deseja calcular a raíz cúbica: ");
         int numeroRaiz = scanner.nextInt();
 
         //Calcula a raíz cúbica do número digitado
